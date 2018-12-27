@@ -1,6 +1,7 @@
 (sym_lib_table
   (lib (name gkl_rf)(type Legacy)(uri ${KIPRJMOD}/../../lib/gkl/gkl_rf.lib)(options "")(descr ""))
   (lib (name gkl_microchip)(type Legacy)(uri ${KIPRJMOD}/../../lib/gkl/gkl_microchip.lib)(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri ${KIPRJMOD}/../../lib/gkl/gkl_power.lib)(options "")(descr ""))
   (lib (name pkl_tag_connect)(type Legacy)(uri ${KIPRJMOD}/../../lib/pkl/pkl_tag_connect.lib)(options "")(descr ""))
   (lib (name pkl_silabs)(type Legacy)(uri ${KIPRJMOD}/../../lib/pkl/pkl_silabs.lib)(options "")(descr ""))
   (lib (name pkl_sensor)(type Legacy)(uri ${KIPRJMOD}/../../lib/pkl/pkl_sensor.lib)(options "")(descr ""))

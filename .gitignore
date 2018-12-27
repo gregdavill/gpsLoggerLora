@@ -39,3 +39,6 @@ Release/
 
 #kicad cache
 *-cache*
+
+#reference pdfs/dxf/examples
+ref/
