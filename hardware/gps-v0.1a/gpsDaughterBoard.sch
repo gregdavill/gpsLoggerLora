@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:gpsLoggerLoRa-cache
+LIBS:gpsDaughterBoard-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -219,27 +219,9 @@ Connection ~ 3250 2800
 Wire Wire Line
 	3250 2800 3850 2800
 Wire Wire Line
-	4100 4400 3300 4400
-Wire Wire Line
-	3300 4400 3300 3850
-Wire Wire Line
-	3300 3850 2950 3850
-Wire Wire Line
-	2950 3750 3400 3750
-Wire Wire Line
-	3400 3750 3400 4300
-Wire Wire Line
-	3400 4300 4100 4300
-Wire Wire Line
 	5600 4500 5800 4500
 Wire Wire Line
 	5800 4500 5800 5000
-Wire Wire Line
-	5800 5000 3500 5000
-Wire Wire Line
-	3500 5000 3500 3650
-Wire Wire Line
-	3500 3650 2950 3650
 Wire Wire Line
 	4100 4700 3950 4700
 Wire Wire Line
@@ -288,4 +270,32 @@ Wire Wire Line
 	8400 3600 9000 3600
 Wire Wire Line
 	9000 3600 9000 3200
+Wire Wire Line
+	2950 3650 3650 3650
+Wire Wire Line
+	3650 3650 3650 4400
+Wire Wire Line
+	3650 4400 4100 4400
+Wire Wire Line
+	4100 4300 3550 4300
+Wire Wire Line
+	3550 4300 3550 3750
+Wire Wire Line
+	3550 3750 2950 3750
+Wire Wire Line
+	2950 3850 3450 3850
+Wire Wire Line
+	3450 3850 3450 5000
+Wire Wire Line
+	3450 5000 5800 5000
+Text Label 3150 3650 0    60   ~ 0
+TX
+Text Label 3150 3750 0    60   ~ 0
+RX
+Text Label 3150 3850 0    60   ~ 0
+PPS
+Text Notes 3300 3750 0    60   ~ 0
+<
+Text Notes 3300 3650 0    60   ~ 0
+>
 $EndSCHEMATC
