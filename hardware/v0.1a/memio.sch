@@ -79,11 +79,11 @@ L pkl_device:pkl_R4_Small R3
 U 1 1 5C26D20B
 P 3700 4800
 F 0 "R3" V 3600 4650 50  0000 C CNN
-F 1 "100R" V 3600 4950 50  0000 C CNN
+F 1 "330R" V 3600 4950 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 3700 4800 60  0001 C CNN
 F 3 "" H 3700 4800 60  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
-F 5 "EXB-38V101JV" H 0   0   50  0001 C CNN "PN"
+F 5 "EXB-38V331JV" H 0   0   50  0001 C CNN "PN"
 	1    3700 4800
 	0    1    1    0   
 $EndComp
@@ -92,11 +92,11 @@ L pkl_device:pkl_R4_Small R3
 U 2 1 5C26D258
 P 3700 5000
 F 0 "R3" V 3600 4850 50  0000 C CNN
-F 1 "100R" V 3600 5150 50  0000 C CNN
+F 1 "330R" V 3600 5150 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 3700 5000 60  0001 C CNN
 F 3 "" H 3700 5000 60  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
-F 5 "EXB-38V101JV" H 0   0   50  0001 C CNN "PN"
+F 5 "EXB-38V331JV" H 0   0   50  0001 C CNN "PN"
 	2    3700 5000
 	0    1    1    0   
 $EndComp
@@ -105,11 +105,11 @@ L pkl_device:pkl_R4_Small R3
 U 3 1 5C26D2A0
 P 3700 5200
 F 0 "R3" V 3600 5050 50  0000 C CNN
-F 1 "100R" V 3600 5350 50  0000 C CNN
+F 1 "330R" V 3600 5350 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 3700 5200 60  0001 C CNN
 F 3 "" H 3700 5200 60  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
-F 5 "EXB-38V101JV" H 0   0   50  0001 C CNN "PN"
+F 5 "EXB-38V331JV" H 0   0   50  0001 C CNN "PN"
 	3    3700 5200
 	0    1    1    0   
 $EndComp
@@ -118,11 +118,11 @@ L pkl_device:pkl_R4_Small R3
 U 4 1 5C26D2EF
 P 3700 5700
 F 0 "R3" V 3600 5550 50  0000 C CNN
-F 1 "100R" V 3600 5850 50  0000 C CNN
+F 1 "330R" V 3600 5850 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 3700 5700 60  0001 C CNN
 F 3 "" H 3700 5700 60  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
-F 5 "EXB-38V101JV" H 0   0   50  0001 C CNN "PN"
+F 5 "EXB-38V331JV" H 0   0   50  0001 C CNN "PN"
 	4    3700 5700
 	0    1    1    0   
 $EndComp
@@ -151,11 +151,11 @@ L pkl_device:pkl_R4_Small R2
 U 1 1 5C26DE22
 P 3700 5900
 F 0 "R2" V 3600 5750 50  0000 C CNN
-F 1 "100R" V 3600 6050 50  0000 C CNN
+F 1 "330R" V 3600 6050 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 3700 5900 60  0001 C CNN
 F 3 "" H 3700 5900 60  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
-F 5 "EXB-38V101JV" H 0   0   50  0001 C CNN "PN"
+F 5 "EXB-38V331JV" H 0   0   50  0001 C CNN "PN"
 	1    3700 5900
 	0    1    1    0   
 $EndComp
@@ -164,11 +164,11 @@ L pkl_device:pkl_R4_Small R2
 U 2 1 5C26DE81
 P 3700 6100
 F 0 "R2" V 3600 5950 50  0000 C CNN
-F 1 "100R" V 3600 6250 50  0000 C CNN
+F 1 "330R" V 3600 6250 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 3700 6100 60  0001 C CNN
 F 3 "" H 3700 6100 60  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
-F 5 "EXB-38V101JV" H 0   0   50  0001 C CNN "PN"
+F 5 "EXB-38V331JV" H 0   0   50  0001 C CNN "PN"
 	2    3700 6100
 	0    1    1    0   
 $EndComp
@@ -179,11 +179,11 @@ L pkl_device:pkl_R4_Small R2
 U 3 1 5C26EB4D
 P 3700 6950
 F 0 "R2" V 3800 6800 50  0000 C CNN
-F 1 "100R" V 3750 7100 50  0000 C CNN
+F 1 "330R" V 3750 7100 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 3700 6950 60  0001 C CNN
 F 3 "" H 3700 6950 60  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
-F 5 "EXB-38V101JV" H 0   0   50  0001 C CNN "PN"
+F 5 "EXB-38V331JV" H 0   0   50  0001 C CNN "PN"
 	3    3700 6950
 	0    1    1    0   
 $EndComp
@@ -257,11 +257,11 @@ L pkl_device:pkl_R4_Small R4
 U 2 1 5C276AB1
 P 7500 3500
 F 0 "R4" V 7400 3350 50  0000 C CNN
-F 1 "100R" V 7400 3650 50  0000 C CNN
+F 1 "330R" V 7400 3650 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 7500 3500 60  0001 C CNN
 F 3 "" H 7500 3500 60  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
-F 5 "EXB-38V101JV" H 0   0   50  0001 C CNN "PN"
+F 5 "EXB-38V331JV" H 0   0   50  0001 C CNN "PN"
 	2    7500 3500
 	0    1    1    0   
 $EndComp
@@ -270,11 +270,11 @@ L pkl_device:pkl_R4_Small R4
 U 3 1 5C276BF3
 P 7500 3700
 F 0 "R4" V 7400 3550 50  0000 C CNN
-F 1 "100R" V 7400 3850 50  0000 C CNN
+F 1 "330R" V 7400 3850 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 7500 3700 60  0001 C CNN
 F 3 "" H 7500 3700 60  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
-F 5 "EXB-38V101JV" H 0   0   50  0001 C CNN "PN"
+F 5 "EXB-38V331JV" H 0   0   50  0001 C CNN "PN"
 	3    7500 3700
 	0    1    1    0   
 $EndComp
@@ -283,11 +283,11 @@ L pkl_device:pkl_R4_Small R4
 U 4 1 5C276C25
 P 7500 3900
 F 0 "R4" V 7400 3750 50  0000 C CNN
-F 1 "100R" V 7400 4050 50  0000 C CNN
+F 1 "330R" V 7400 4050 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 7500 3900 60  0001 C CNN
 F 3 "" H 7500 3900 60  0000 C CNN
 F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
-F 5 "EXB-38V101JV" H 0   0   50  0001 C CNN "PN"
+F 5 "EXB-38V331JV" H 0   0   50  0001 C CNN "PN"
 	4    7500 3900
 	0    1    1    0   
 $EndComp
