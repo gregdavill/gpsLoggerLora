@@ -5,14 +5,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
-Title ""
-Date ""
+Title "gpsLoggerLora"
+Date "2018-12-29"
 Rev ""
-Comp ""
+Comp "Gregory S Davill"
 Comment1 ""
 Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment3 "Featuring a LoRa Tranciever"
+Comment4 "Simple GPS logger with low power features"
 $EndDescr
 Text Label 3850 3450 0    60   ~ 0
 USB_DATA_N
@@ -755,4 +755,56 @@ Wire Wire Line
 	7950 5250 5300 5250
 Text Label 5950 2000 0    60   ~ 0
 VBAT
+$Comp
+L device:R R8
+U 1 1 5C274F39
+P 2700 4250
+F 0 "R8" H 2770 4296 50  0000 L CNN
+F 1 "5.1k" H 2770 4205 50  0000 L CNN
+F 2 "pkl_dipol:R_0402" V 2630 4250 50  0001 C CNN
+F 3 "~" H 2700 4250 50  0001 C CNN
+	1    2700 4250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L device:R R9
+U 1 1 5C274F9F
+P 2850 4250
+F 0 "R9" H 2920 4296 50  0000 L CNN
+F 1 "5.1k" H 2920 4205 50  0000 L CNN
+F 2 "pkl_dipol:R_0402" V 2780 4250 50  0001 C CNN
+F 3 "~" H 2850 4250 50  0001 C CNN
+	1    2850 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C277E58
+P 2850 4700
+AR Path="/5C277E58" Ref="#PWR?"  Part="1" 
+AR Path="/5C25E3B0/5C277E58" Ref="#PWR0161"  Part="1" 
+F 0 "#PWR0161" H 2850 4450 50  0001 C CNN
+F 1 "GND" H 2853 4574 50  0000 C CNN
+F 2 "" H 2750 4350 50  0001 C CNN
+F 3 "" H 2850 4700 50  0001 C CNN
+	1    2850 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 4400 2700 4600
+Wire Wire Line
+	2700 4600 2850 4600
+Wire Wire Line
+	2850 4600 2850 4700
+Wire Wire Line
+	2850 4400 2850 4600
+Connection ~ 2850 4600
+Wire Wire Line
+	2050 3150 2700 3150
+Wire Wire Line
+	2700 3150 2700 4100
+Wire Wire Line
+	2050 3050 2850 3050
+Wire Wire Line
+	2850 3050 2850 4100
 $EndSCHEMATC

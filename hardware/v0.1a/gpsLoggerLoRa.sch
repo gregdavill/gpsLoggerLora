@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "gpsLoggerLora"
-Date "2018-12-27"
+Date "2018-12-29"
 Rev "v0.1a"
 Comp "Gregory S Davill"
 Comment1 ""
@@ -41,7 +41,7 @@ F20 "BATTERY_VOLTAGE" I L 4150 3250 60
 F21 "PP3V3_AUX" I L 4150 2550 60 
 $EndSheet
 $Sheet
-S 1550 1900 1850 1500
+S 1550 1900 1850 1750
 U 5C25E3B0
 F0 "USB" 60
 F1 "USB.sch" 60
@@ -120,4 +120,10 @@ Wire Wire Line
 	4150 3250 3400 3250
 Wire Wire Line
 	3400 3150 4150 3150
+Text Notes 1800 2450 0    60   ~ 0
+USB/PWR/BATT
+Text Notes 4750 4000 0    60   ~ 0
+SAMR34/RF
+Text Notes 7850 3650 0    60   ~ 0
+LEDS/BUTTON/FLASH
 $EndSCHEMATC

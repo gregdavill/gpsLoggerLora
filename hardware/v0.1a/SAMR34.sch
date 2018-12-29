@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title "gpsLoggerLora"
-Date "2018-12-27"
+Date "2018-12-29"
 Rev "v0.1a"
 Comp "Gregory S Davill"
 Comment1 ""
