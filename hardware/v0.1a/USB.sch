@@ -637,46 +637,46 @@ F 3 "" H 8950 2900 60  0000 C CNN
 $EndComp
 $Comp
 L pkl_device:pkl_R4_Small R6
-U 2 1 5CE768A3
+U 4 1 5CE768A3
 P 8550 2650
 F 0 "R6" H 8609 2696 50  0000 L CNN
 F 1 "47k" H 8609 2605 50  0000 L CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 8550 2650 60  0001 C CNN
 F 3 "" H 8550 2650 60  0000 C CNN
-	2    8550 2650
+	4    8550 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L pkl_device:pkl_R4_Small R6
-U 1 1 5CE76947
+U 3 1 5CE76947
 P 8150 3450
 F 0 "R6" H 8209 3496 50  0000 L CNN
 F 1 "47k" H 8209 3405 50  0000 L CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 8150 3450 60  0001 C CNN
 F 3 "" H 8150 3450 60  0000 C CNN
-	1    8150 3450
-	1    0    0    -1  
+	3    8150 3450
+	1    0    0    1   
 $EndComp
 $Comp
 L pkl_device:pkl_R4_Small R6
-U 3 1 5CE76991
+U 2 1 5CE76991
 P 9050 3200
 F 0 "R6" H 9109 3246 50  0000 L CNN
 F 1 "47k" H 9109 3155 50  0000 L CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 9050 3200 60  0001 C CNN
 F 3 "" H 9050 3200 60  0000 C CNN
-	3    9050 3200
-	1    0    0    -1  
+	2    9050 3200
+	1    0    0    1   
 $EndComp
 $Comp
 L pkl_device:pkl_R4_Small R6
-U 4 1 5CE769DB
+U 1 1 5CE769DB
 P 9050 3500
 F 0 "R6" H 9109 3546 50  0000 L CNN
 F 1 "47k" H 9109 3455 50  0000 L CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 9050 3500 60  0001 C CNN
 F 3 "" H 9050 3500 60  0000 C CNN
-	4    9050 3500
+	1    9050 3500
 	1    0    0    -1  
 $EndComp
 Connection ~ 5500 2000
@@ -753,4 +753,6 @@ Connection ~ 8150 3200
 Connection ~ 7950 5250
 Wire Wire Line
 	7950 5250 5300 5250
+Text Label 5950 2000 0    60   ~ 0
+VBAT
 $EndSCHEMATC

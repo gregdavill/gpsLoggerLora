@@ -149,17 +149,6 @@ F 3 "~" H 6850 3650 50  0001 C CNN
 	1    6850 3650
 	-1   0    0    1   
 $EndComp
-$Comp
-L device:C_Small C22
-U 1 1 5C2BDD28
-P 7100 1800
-F 0 "C22" V 7200 1800 50  0000 C CNN
-F 1 "18pF" V 7000 1800 50  0000 C CNN
-F 2 "pkl_dipol:C_0402" H 7100 1800 50  0001 C CNN
-F 3 "~" H 7100 1800 50  0001 C CNN
-	1    7100 1800
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6050 1800 6150 1800
 Wire Wire Line
@@ -170,8 +159,6 @@ Connection ~ 6150 1800
 Wire Wire Line
 	6550 1900 6550 1800
 Connection ~ 6550 1800
-Wire Wire Line
-	6550 1800 7000 1800
 $Comp
 L power:GND #PWR0101
 U 1 1 5C2C0100
@@ -401,17 +388,6 @@ Wire Wire Line
 	5850 3150 5850 3400
 Wire Wire Line
 	6550 2100 6550 2150
-$Comp
-L device:C_Small C27
-U 1 1 5C3523E3
-P 8100 1800
-F 0 "C27" V 8200 1800 50  0000 C CNN
-F 1 "18pF" V 8000 1800 50  0000 C CNN
-F 2 "pkl_dipol:C_0402" H 8100 1800 50  0001 C CNN
-F 3 "~" H 8100 1800 50  0001 C CNN
-	1    8100 1800
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6150 2150 6550 2150
 Connection ~ 6550 2150
@@ -425,8 +401,6 @@ Wire Wire Line
 	9200 2200 8950 2200
 Wire Wire Line
 	8950 2200 8950 1800
-Wire Wire Line
-	8200 1800 8950 1800
 Wire Wire Line
 	9200 2300 8800 2300
 Wire Wire Line
@@ -538,8 +512,6 @@ F 3 "" H 10650 1800 50  0001 C CNN
 	1    10650 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7200 1800 8000 1800
 Text HLabel 1750 4900 0    60   BiDi ~ 0
 USB_DATA_N
 Text HLabel 1750 5000 0    60   BiDi ~ 0
@@ -1040,10 +1012,8 @@ Wire Wire Line
 Connection ~ 10450 5000
 Wire Wire Line
 	10450 5000 10450 5100
-Text Label 1350 3400 0    60   ~ 0
+Text Label 700  2950 0    60   ~ 0
 BAND_SEL
-Wire Wire Line
-	1350 3400 1900 3400
 $Comp
 L pkl_misc:pkl_ANTENNA A2
 U 1 1 5C28A0B5
@@ -1422,13 +1392,13 @@ NoConn ~ 4050 5900
 $Comp
 L device:Ferrite_Bead_Small L18
 U 1 1 5C400786
-P 4750 5250
-F 0 "L18" H 4650 5204 50  0000 R CNN
-F 1 "1k" H 4650 5295 50  0000 R CNN
-F 2 "pkl_dipol:L_0402" V 4680 5250 50  0001 C CNN
-F 3 "~" H 4750 5250 50  0001 C CNN
-	1    4750 5250
-	0    -1   -1   0   
+P 4950 5400
+F 0 "L18" H 4850 5354 50  0000 R CNN
+F 1 "1k" H 4850 5445 50  0000 R CNN
+F 2 "pkl_dipol:L_0402" V 4880 5400 50  0001 C CNN
+F 3 "~" H 4950 5400 50  0001 C CNN
+	1    4950 5400
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR0131
@@ -1563,19 +1533,19 @@ $Comp
 L device:C_Small C49
 U 1 1 5C498978
 P 1500 2550
-F 0 "C49" H 1408 2504 50  0000 R CNN
-F 1 "10pF" H 1408 2595 50  0000 R CNN
+F 0 "C49" H 1450 2650 50  0000 R CNN
+F 1 "10pF" H 1500 2450 50  0000 R CNN
 F 2 "pkl_dipol:C_0402" H 1500 2550 50  0001 C CNN
 F 3 "~" H 1500 2550 50  0001 C CNN
 	1    1500 2550
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L device:C_Small C50
 U 1 1 5C498AA8
 P 1800 2550
-F 0 "C50" H 1708 2504 50  0000 R CNN
-F 1 "10pF" H 1708 2595 50  0000 R CNN
+F 0 "C50" H 1750 2450 50  0000 R CNN
+F 1 "10pF" H 1750 2650 50  0000 R CNN
 F 2 "pkl_dipol:C_0402" H 1800 2550 50  0001 C CNN
 F 3 "~" H 1800 2550 50  0001 C CNN
 	1    1800 2550
@@ -1609,13 +1579,11 @@ Wire Wire Line
 Connection ~ 1800 2300
 Wire Wire Line
 	1800 2300 2400 2300
-Text HLabel 1300 3500 0    60   Output ~ 0
+Text HLabel 1150 3500 0    60   Output ~ 0
 AUX_PWR_EN
-Wire Wire Line
-	1900 3500 1300 3500
 Text HLabel 1750 4700 0    60   Output ~ 0
 GPS_TX
-Text HLabel 1750 4800 0    60   Output ~ 0
+Text HLabel 1750 5650 0    60   Output ~ 0
 GPS_RX
 Text HLabel 1750 4100 0    60   Output ~ 0
 GPS_PPS
@@ -1625,13 +1593,13 @@ Wire Wire Line
 	1750 4800 1900 4800
 Wire Wire Line
 	1900 4700 1750 4700
-Text HLabel 1750 4000 0    60   Output ~ 0
+Text HLabel 1750 3900 0    60   Output ~ 0
 LED_A_RED
 Text HLabel 1750 3700 0    60   Output ~ 0
 LED_A_GREEN
 Text HLabel 1750 4200 0    60   Output ~ 0
 LED_A_BLUE
-Text HLabel 1750 5650 0    60   Output ~ 0
+Text HLabel 1750 4800 0    60   Output ~ 0
 LED_B_RED
 Text HLabel 1750 5750 0    60   Output ~ 0
 LED_B_GREEN
@@ -1649,15 +1617,15 @@ Wire Wire Line
 	1750 5750 1900 5750
 Wire Wire Line
 	1900 5450 1750 5450
-Text HLabel 1750 4300 0    60   Input ~ 0
-FLASH_CS#
 Text HLabel 1750 4400 0    60   Input ~ 0
+FLASH_CS#
+Text HLabel 1750 4300 0    60   Input ~ 0
 FLASH_DQ0
 Text HLabel 1750 4500 0    60   Input ~ 0
 FLASH_DQ1
 Text HLabel 1750 4600 0    60   Input ~ 0
 FLASH_CLK
-Text HLabel 1750 3900 0    60   Input ~ 0
+Text HLabel 1750 4000 0    60   Input ~ 0
 USER_BUTTON
 Text HLabel 1750 5200 0    60   Input ~ 0
 CHARGE_STATUS
@@ -1753,14 +1721,12 @@ Connection ~ 4750 6350
 Wire Wire Line
 	4750 6350 4750 6300
 Wire Wire Line
-	4750 6100 4750 5900
+	4750 6100 4750 6000
 Wire Wire Line
 	4750 5900 4400 5900
 Connection ~ 4400 5900
 Wire Wire Line
 	4400 6000 4400 6100
-Wire Wire Line
-	4400 5900 4400 5250
 $Comp
 L device:C_Small C30
 U 1 1 5CB678FD
@@ -1848,97 +1814,82 @@ Wire Wire Line
 Wire Wire Line
 	1900 5200 1750 5200
 Wire Wire Line
-	1750 5550 1900 5550
+	1750 5550 1850 5550
 $Comp
 L conn:Conn_02x03_Odd_Even J4
 U 1 1 5C2D3FA7
-P 2350 6950
-F 0 "J4" H 2400 7267 50  0000 C CNN
-F 1 "CTX TAG Connect" H 2550 7200 50  0000 C CNN
-F 2 "pkl_tag_connect:TC2030-NL_SMALL" H 2350 6950 50  0001 C CNN
-F 3 "~" H 2350 6950 50  0001 C CNN
-	1    2350 6950
+P 2350 7200
+F 0 "J4" H 2400 7517 50  0000 C CNN
+F 1 "CTX TAG Connect" H 2550 7450 50  0000 C CNN
+F 2 "pkl_tag_connect:TC2030-NL_SMALL" H 2350 7200 50  0001 C CNN
+F 3 "~" H 2350 7200 50  0001 C CNN
+	1    2350 7200
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2650 7050
+NoConn ~ 2650 7300
 $Comp
 L power:GND #PWR0153
 U 1 1 5C2F1890
-P 2100 7050
-F 0 "#PWR0153" H 2100 6800 50  0001 C CNN
-F 1 "GND" H 2100 6950 50  0000 C CNN
-F 2 "" H 2100 7050 50  0001 C CNN
-F 3 "" H 2100 7050 50  0001 C CNN
-	1    2100 7050
+P 2100 7300
+F 0 "#PWR0153" H 2100 7050 50  0001 C CNN
+F 1 "GND" H 2100 7200 50  0000 C CNN
+F 2 "" H 2100 7300 50  0001 C CNN
+F 3 "" H 2100 7300 50  0001 C CNN
+	1    2100 7300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2150 6850 2100 6850
+	2150 7100 2100 7100
 Wire Wire Line
-	2100 6850 2100 6750
+	2100 7100 2100 7000
 $Comp
 L power:+3V3 #PWR0154
 U 1 1 5C32BF6A
-P 2100 6750
-F 0 "#PWR0154" H 2100 6600 50  0001 C CNN
-F 1 "+3V3" H 2103 6901 50  0000 C CNN
-F 2 "" H 2100 6750 50  0001 C CNN
-F 3 "" H 2100 6750 50  0001 C CNN
-	1    2100 6750
+P 2100 7000
+F 0 "#PWR0154" H 2100 6850 50  0001 C CNN
+F 1 "+3V3" H 2103 7151 50  0000 C CNN
+F 2 "" H 2100 7000 50  0001 C CNN
+F 3 "" H 2100 7000 50  0001 C CNN
+	1    2100 7000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 6950 1700 6200
+	1850 7200 1850 6200
 Wire Wire Line
-	1700 6200 1900 6200
+	1850 6200 1900 6200
 Wire Wire Line
-	1700 6950 2150 6950
+	1850 7200 2150 7200
 Wire Wire Line
-	2100 7050 2150 7050
+	2100 7300 2150 7300
 Wire Wire Line
-	1900 6100 1600 6100
+	1900 6100 1750 6100
 Wire Wire Line
-	1600 6100 1600 7200
+	1750 6100 1750 6750
 Wire Wire Line
-	1600 7200 3000 7200
+	3000 7100 2650 7100
 Wire Wire Line
-	3000 7200 3000 6850
+	2650 7200 3100 7200
 Wire Wire Line
-	3000 6850 2650 6850
-Wire Wire Line
-	2650 6950 3100 6950
-Wire Wire Line
-	3100 6950 3100 7300
-Wire Wire Line
-	3100 7300 1500 7300
-Wire Wire Line
-	1500 7300 1500 6000
-Wire Wire Line
-	1500 6000 1900 6000
-Text Label 1900 6950 0    60   ~ 0
+	1650 6000 1900 6000
+Text Label 1900 7200 0    60   ~ 0
 RESET
-Text Label 2700 6850 0    60   ~ 0
+Text Label 2700 7100 0    60   ~ 0
 DIO
-Text Label 2700 6950 0    60   ~ 0
+Text Label 2700 7200 0    60   ~ 0
 CLK
 $Comp
 L power:AVDD #PWR0155
 U 1 1 5C59AD8E
-P 4550 5150
-F 0 "#PWR0155" H 4550 5000 50  0001 C CNN
-F 1 "AVDD" H 4553 5301 50  0000 C CNN
-F 2 "" H 4550 5150 50  0001 C CNN
-F 3 "" H 4550 5150 50  0001 C CNN
-	1    4550 5150
+P 4750 5800
+F 0 "#PWR0155" H 4750 5650 50  0001 C CNN
+F 1 "AVDD" H 4753 5951 50  0000 C CNN
+F 2 "" H 4750 5800 50  0001 C CNN
+F 3 "" H 4750 5800 50  0001 C CNN
+	1    4750 5800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 5150 4550 5250
-Wire Wire Line
-	4550 5250 4400 5250
-Connection ~ 4400 5250
-Wire Wire Line
-	4400 5250 4400 3900
+	4750 5800 4750 5900
 $Comp
 L power:+3V3 #PWR0156
 U 1 1 5C5BC1F3
@@ -1950,13 +1901,6 @@ F 3 "" H 4950 5150 50  0001 C CNN
 	1    4950 5150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4850 5250 4950 5250
-Wire Wire Line
-	4950 5250 4950 5150
-Wire Wire Line
-	4650 5250 4550 5250
-Connection ~ 4550 5250
 Wire Wire Line
 	4300 3250 4300 3800
 Wire Wire Line
@@ -1988,75 +1932,236 @@ Wire Wire Line
 Connection ~ 4450 2100
 Wire Wire Line
 	4450 2100 4450 2200
-Text Notes 1300 3850 2    60   ~ 0
-SERCOM0.0\n
-Text Notes 1000 3950 2    60   ~ 0
-EINT9
-Text Notes 1150 4350 2    60   ~ 0
+Text Notes 850  4050 2    60   ~ 0
+EINT13\n
+Text Notes 1050 4350 2    60   ~ 0
 SERCOM1.0\n
-Text Notes 1150 4450 2    60   ~ 0
+Text Notes 1050 4450 2    60   ~ 0
 SERCOM1.1
-Text Notes 1150 4550 2    60   ~ 0
+Text Notes 1050 4550 2    60   ~ 0
 SERCOM1.2
-Text Notes 1150 4650 2    60   ~ 0
+Text Notes 1050 4650 2    60   ~ 0
 SERCOM1.3
-Text Notes 800  4950 2    60   ~ 0
+Text Notes 750  4950 2    60   ~ 0
 USB\n
-Text Notes 800  5050 2    60   ~ 0
+Text Notes 750  5050 2    60   ~ 0
 USB\n
-Text Notes 800  5150 2    60   ~ 0
+Text Notes 850  5150 2    60   ~ 0
 EINT15
-Text Notes 950  3750 2    60   ~ 0
-TCC1.0
-Text Notes 1100 4050 2    60   ~ 0
-TCC2.1
-Text Notes 1050 4150 2    60   ~ 0
+Text Notes 850  3750 2    60   ~ 0
+TCC1.1
+Text Notes 850  3950 2    60   ~ 0
+TCC1.3\n
+Text Notes 850  4150 2    60   ~ 0
 EINT14
-Text Notes 1050 4250 2    60   ~ 0
+Text Notes 800  4250 2    60   ~ 0
 TC4.1\n
-Text Notes 850  5600 2    60   ~ 0
+Text Notes 800  5600 2    60   ~ 0
 AIN11
-Text Notes 800  5700 2    60   ~ 0
-TC3.0
+Text Notes 1050 5700 2    60   ~ 0
+SERCOM5.2
 Text Notes 800  5800 2    60   ~ 0
 TC3.1
 Text Notes 800  5250 2    60   ~ 0
 EINT8
-Text Notes 850  5500 2    60   ~ 0
+Text Notes 800  5500 2    60   ~ 0
 TC2.0
 $Comp
 L device:R R?
 U 1 1 5CB0A762
-P 1200 6700
+P 1500 6950
 AR Path="/5C25E3B0/5CB0A762" Ref="R?"  Part="1" 
 AR Path="/5C2B8DA0/5CB0A762" Ref="R7"  Part="1" 
-F 0 "R7" H 1270 6746 50  0000 L CNN
-F 1 "10k" H 1270 6655 50  0000 L CNN
-F 2 "pkl_dipol:R_0402" V 1130 6700 50  0001 C CNN
-F 3 "~" H 1200 6700 50  0001 C CNN
-	1    1200 6700
-	1    0    0    -1  
+F 0 "R7" H 1570 6996 50  0000 L CNN
+F 1 "10k" H 1570 6905 50  0000 L CNN
+F 2 "pkl_dipol:R_0402" V 1430 6950 50  0001 C CNN
+F 3 "~" H 1500 6950 50  0001 C CNN
+	1    1500 6950
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 6950 1200 6950
+	1850 7200 1500 7200
 Wire Wire Line
-	1200 6950 1200 6850
-Connection ~ 1700 6950
+	1500 7200 1500 7100
+Connection ~ 1850 7200
 Wire Wire Line
-	1200 6550 1200 6450
+	1500 6800 1500 6700
 $Comp
 L power:+3V3 #PWR0158
 U 1 1 5CB8E1B8
-P 1200 6450
-F 0 "#PWR0158" H 1200 6300 50  0001 C CNN
-F 1 "+3V3" H 1203 6601 50  0000 C CNN
-F 2 "" H 1200 6450 50  0001 C CNN
-F 3 "" H 1200 6450 50  0001 C CNN
-	1    1200 6450
+P 1500 6700
+F 0 "#PWR0158" H 1500 6550 50  0001 C CNN
+F 1 "+3V3" H 1503 6851 50  0000 C CNN
+F 2 "" H 1500 6700 50  0001 C CNN
+F 3 "" H 1500 6700 50  0001 C CNN
+	1    1500 6700
 	1    0    0    -1  
 $EndComp
-Text Notes 1150 4850 2    60   ~ 0
-SERCOM5.1\n
-Text Notes 1150 4750 2    60   ~ 0
+Text Notes 850  4850 2    60   ~ 0
+TCC0.5
+Text Notes 1050 4750 2    60   ~ 0
 SERCOM5.0\n
+Wire Wire Line
+	6550 1800 8950 1800
+Connection ~ 4750 5900
+Wire Wire Line
+	4950 5150 4950 5300
+Wire Wire Line
+	4950 5500 4950 6000
+Wire Wire Line
+	4950 6000 4750 6000
+Connection ~ 4750 6000
+Wire Wire Line
+	4750 6000 4750 5900
+Wire Wire Line
+	4400 3900 4400 5900
+$Comp
+L device:C_Small C57
+U 1 1 5C335A87
+P 1500 6050
+F 0 "C57" H 1350 6050 50  0000 C CNN
+F 1 "4.7pF" H 1350 6150 50  0000 C CNN
+F 2 "pkl_dipol:C_0402" H 1500 6050 50  0001 C CNN
+F 3 "~" H 1500 6050 50  0001 C CNN
+	1    1500 6050
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0159
+U 1 1 5C335BDA
+P 1500 6300
+F 0 "#PWR0159" H 1500 6050 50  0001 C CNN
+F 1 "GND" H 1500 6200 50  0000 C CNN
+F 2 "" H 1500 6300 50  0001 C CNN
+F 3 "" H 1500 6300 50  0001 C CNN
+	1    1500 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 6300 1500 6150
+Wire Wire Line
+	1500 5950 1500 5850
+Wire Wire Line
+	1500 5850 1850 5850
+Wire Wire Line
+	1850 5850 1850 5550
+Connection ~ 1850 5550
+Wire Wire Line
+	1850 5550 1900 5550
+$Comp
+L device:L_Small L23
+U 1 1 5C4C6950
+P 1700 3400
+F 0 "L23" V 1750 3300 50  0000 R CNN
+F 1 "10nH" V 1750 3700 50  0000 R CNN
+F 2 "pkl_dipol:L_0402" H 1700 3400 50  0001 C CNN
+F 3 "~" H 1700 3400 50  0001 C CNN
+	1    1700 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:C_Small C22
+U 1 1 5C4C6D07
+P 950 3150
+F 0 "C22" V 1000 3300 50  0000 C CNN
+F 1 "4.7pF" V 1000 3000 50  0000 C CNN
+F 2 "pkl_dipol:C_0402" H 950 3150 50  0001 C CNN
+F 3 "~" H 950 3150 50  0001 C CNN
+	1    950  3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1900 3400 1800 3400
+Wire Wire Line
+	1600 3400 1300 3400
+$Comp
+L power:GND #PWR0160
+U 1 1 5C571C94
+P 650 3350
+F 0 "#PWR0160" H 650 3100 50  0001 C CNN
+F 1 "GND" H 650 3250 50  0000 C CNN
+F 2 "" H 650 3350 50  0001 C CNN
+F 3 "" H 650 3350 50  0001 C CNN
+	1    650  3350
+	0    1    1    0   
+$EndComp
+$Comp
+L device:L_Small L24
+U 1 1 5C594AE1
+P 1700 3500
+F 0 "L24" V 1750 3400 50  0000 R CNN
+F 1 "10nH" V 1750 3800 50  0000 R CNN
+F 2 "pkl_dipol:L_0402" H 1700 3500 50  0001 C CNN
+F 3 "~" H 1700 3500 50  0001 C CNN
+	1    1700 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1900 3500 1800 3500
+$Comp
+L device:C_Small C27
+U 1 1 5C5FE2CE
+P 950 3350
+F 0 "C27" V 900 3500 50  0000 C CNN
+F 1 "4.7pF" V 900 3200 50  0000 C CNN
+F 2 "pkl_dipol:C_0402" H 950 3350 50  0001 C CNN
+F 3 "~" H 950 3350 50  0001 C CNN
+	1    950  3350
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1300 2950 700  2950
+Wire Wire Line
+	1300 2950 1300 3150
+Wire Wire Line
+	1150 3500 1200 3500
+Wire Wire Line
+	850  3350 700  3350
+Wire Wire Line
+	700  3350 700  3150
+Wire Wire Line
+	700  3150 850  3150
+Connection ~ 700  3350
+Wire Wire Line
+	700  3350 650  3350
+Wire Wire Line
+	1050 3350 1200 3350
+Wire Wire Line
+	1200 3350 1200 3500
+Connection ~ 1200 3500
+Wire Wire Line
+	1200 3500 1600 3500
+Wire Wire Line
+	1050 3150 1300 3150
+Connection ~ 1300 3150
+Wire Wire Line
+	1300 3150 1300 3400
+Wire Wire Line
+	3000 7100 3000 6750
+Wire Wire Line
+	3000 6750 1750 6750
+Wire Wire Line
+	1650 6650 3100 6650
+Wire Wire Line
+	3100 6650 3100 7200
+Wire Wire Line
+	1650 6650 1650 6000
+Text Notes 4000 7700 0    60   ~ 0
+PAD\n\n 0\n\n 1\n\n 2\n\n 3
+Text Notes 4400 7700 0    60   ~ 0
+USART\n\nRX/TX\n\nRX\n\nRX/TX\n\nRX
+Text Notes 5000 7700 0    60   ~ 0
+SPI[0]\n\nMOSI\n\n~SS~\n\nMISO\n\nSCK
+Text Notes 5500 7700 0    60   ~ 0
+SPI[1]\n\nMISO\n\n~SS~\n\nMOSI\n\nSCK
+Wire Notes Line
+	5850 6800 3900 6800
+Wire Notes Line
+	3900 7750 5850 7750
+Wire Notes Line
+	5850 6800 5850 7750
+Wire Notes Line
+	3900 6800 3900 7750
+Text Notes 4350 6750 0    60   ~ 0
+SERCOM PAD MAPPING
 $EndSCHEMATC
