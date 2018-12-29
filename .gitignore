@@ -1,46 +1,6 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-
-
-# CCSv6 folders that don't need source control
-.launches/
-.config/
-Debug/
-Release/
-
-#kicad cache
-*-cache*
 *.net
 *.kicad_pcb-bak
 hardware/*/plot/
-#reference pdfs/dxf/examples
-ref/
+
+#Top level reference pdfs/dxf/examples
+/ref/
