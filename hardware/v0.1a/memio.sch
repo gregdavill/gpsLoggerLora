@@ -22,6 +22,8 @@ F 0 "U5" H 4300 3768 50  0000 C CNN
 F 1 "MT25QL256ABA8E12" H 4300 3677 50  0000 C CNN
 F 2 "gkl_housings_bga:T-PBGA-24_6.0x8.0mm_Layout5x5_P1.0mm" H 4300 3750 50  0001 C CNN
 F 3 "" H 4300 3750 50  0001 C CNN
+F 4 "Micron Technology Inc." H 0   0   50  0001 C CNN "Mfg"
+F 5 "MT25QL256ABA8E12-1SIT TR" H 0   0   50  0001 C CNN "PN"
 	1    4300 3250
 	1    0    0    -1  
 $EndComp
@@ -50,6 +52,8 @@ F 0 "D1" H 4300 5497 50  0000 C CNN
 F 1 "LED_ARGB" H 4300 5406 50  0000 C CNN
 F 2 "gkl_led:0404LED_RGB" H 4300 4950 50  0001 C CNN
 F 3 "~" H 4300 4950 50  0001 C CNN
+F 4 "OSRAM Opto Semiconductors Inc." H 0   0   50  0001 C CNN "Mfg"
+F 5 "LRTBR48G-P9Q7-1+R7S5-26+N5P-68-R33-ZB" H 0   0   50  0001 C CNN "PN"
 	1    4300 5000
 	1    0    0    -1  
 $EndComp
@@ -61,6 +65,8 @@ F 0 "D2" H 4300 6397 50  0000 C CNN
 F 1 "LED_ARGB" H 4300 6306 50  0000 C CNN
 F 2 "gkl_led:0404LED_RGB" H 4300 5850 50  0001 C CNN
 F 3 "~" H 4300 5850 50  0001 C CNN
+F 4 "OSRAM Opto Semiconductors Inc." H 0   0   50  0001 C CNN "Mfg"
+F 5 "LRTBR48G-P9Q7-1+R7S5-26+N5P-68-R33-ZB" H 0   0   50  0001 C CNN "PN"
 	1    4300 5900
 	1    0    0    -1  
 $EndComp
@@ -76,6 +82,8 @@ F 0 "R3" V 3600 4650 50  0000 C CNN
 F 1 "100R" V 3600 4950 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 3700 4800 60  0001 C CNN
 F 3 "" H 3700 4800 60  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
+F 5 "EXB-38V101JV" H 0   0   50  0001 C CNN "PN"
 	1    3700 4800
 	0    1    1    0   
 $EndComp
@@ -87,6 +95,8 @@ F 0 "R3" V 3600 4850 50  0000 C CNN
 F 1 "100R" V 3600 5150 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 3700 5000 60  0001 C CNN
 F 3 "" H 3700 5000 60  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
+F 5 "EXB-38V101JV" H 0   0   50  0001 C CNN "PN"
 	2    3700 5000
 	0    1    1    0   
 $EndComp
@@ -98,6 +108,8 @@ F 0 "R3" V 3600 5050 50  0000 C CNN
 F 1 "100R" V 3600 5350 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 3700 5200 60  0001 C CNN
 F 3 "" H 3700 5200 60  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
+F 5 "EXB-38V101JV" H 0   0   50  0001 C CNN "PN"
 	3    3700 5200
 	0    1    1    0   
 $EndComp
@@ -109,6 +121,8 @@ F 0 "R3" V 3600 5550 50  0000 C CNN
 F 1 "100R" V 3600 5850 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 3700 5700 60  0001 C CNN
 F 3 "" H 3700 5700 60  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
+F 5 "EXB-38V101JV" H 0   0   50  0001 C CNN "PN"
 	4    3700 5700
 	0    1    1    0   
 $EndComp
@@ -140,6 +154,8 @@ F 0 "R2" V 3600 5750 50  0000 C CNN
 F 1 "100R" V 3600 6050 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 3700 5900 60  0001 C CNN
 F 3 "" H 3700 5900 60  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
+F 5 "EXB-38V101JV" H 0   0   50  0001 C CNN "PN"
 	1    3700 5900
 	0    1    1    0   
 $EndComp
@@ -151,6 +167,8 @@ F 0 "R2" V 3600 5950 50  0000 C CNN
 F 1 "100R" V 3600 6250 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 3700 6100 60  0001 C CNN
 F 3 "" H 3700 6100 60  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
+F 5 "EXB-38V101JV" H 0   0   50  0001 C CNN "PN"
 	2    3700 6100
 	0    1    1    0   
 $EndComp
@@ -164,6 +182,8 @@ F 0 "R2" V 3800 6800 50  0000 C CNN
 F 1 "100R" V 3750 7100 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 3700 6950 60  0001 C CNN
 F 3 "" H 3700 6950 60  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
+F 5 "EXB-38V101JV" H 0   0   50  0001 C CNN "PN"
 	3    3700 6950
 	0    1    1    0   
 $EndComp
@@ -201,6 +221,8 @@ F 0 "J3" H 8350 4217 50  0000 C CNN
 F 1 "DF12 - 10P" H 8350 4126 50  0000 C CNN
 F 2 "gkl_conn:DF12(3.0)-10DP-0.5V(86)" H 8300 3800 50  0001 C CNN
 F 3 "~" H 8300 3800 50  0001 C CNN
+F 4 "Hirose Electric Co Ltd" H 0   0   50  0001 C CNN "Mfg"
+F 5 "DF12(3.0)-10DP-0.5V(86)" H 0   0   50  0001 C CNN "PN"
 	1    8300 3800
 	-1   0    0    -1  
 $EndComp
@@ -238,6 +260,8 @@ F 0 "R4" V 7400 3350 50  0000 C CNN
 F 1 "100R" V 7400 3650 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 7500 3500 60  0001 C CNN
 F 3 "" H 7500 3500 60  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
+F 5 "EXB-38V101JV" H 0   0   50  0001 C CNN "PN"
 	2    7500 3500
 	0    1    1    0   
 $EndComp
@@ -249,6 +273,8 @@ F 0 "R4" V 7400 3550 50  0000 C CNN
 F 1 "100R" V 7400 3850 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 7500 3700 60  0001 C CNN
 F 3 "" H 7500 3700 60  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
+F 5 "EXB-38V101JV" H 0   0   50  0001 C CNN "PN"
 	3    7500 3700
 	0    1    1    0   
 $EndComp
@@ -260,6 +286,8 @@ F 0 "R4" V 7400 3750 50  0000 C CNN
 F 1 "100R" V 7400 4050 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 7500 3900 60  0001 C CNN
 F 3 "" H 7500 3900 60  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
+F 5 "EXB-38V101JV" H 0   0   50  0001 C CNN "PN"
 	4    7500 3900
 	0    1    1    0   
 $EndComp
@@ -297,6 +325,8 @@ F 0 "L20" V 9463 2300 50  0000 C CNN
 F 1 "1k" V 9554 2300 50  0000 C CNN
 F 2 "pkl_dipol:L_0402" V 9630 2300 50  0001 C CNN
 F 3 "~" H 9700 2300 50  0001 C CNN
+F 4 "Murata Electronics North America" H 0   0   50  0001 C CNN "Mfg"
+F 5 "BLM15AX102SN1D" H 0   0   50  0001 C CNN "PN"
 	1    9700 2300
 	0    1    1    0   
 $EndComp
@@ -308,6 +338,8 @@ F 0 "C46" H 9092 3946 50  0000 L CNN
 F 1 "10uF" H 9092 3855 50  0000 L CNN
 F 2 "pkl_dipol:C_0603" H 9000 3900 50  0001 C CNN
 F 3 "~" H 9000 3900 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CL10A106MQ8NNNC" H 0   0   50  0001 C CNN "PN"
 	1    9000 3900
 	1    0    0    -1  
 $EndComp
@@ -369,6 +401,8 @@ F 0 "L19" V 3700 1600 50  0000 C CNN
 F 1 "1k" V 4000 1600 50  0000 C CNN
 F 2 "pkl_dipol:L_0402" V 3780 1600 50  0001 C CNN
 F 3 "~" H 3850 1600 50  0001 C CNN
+F 4 "Murata Electronics North America" H 0   0   50  0001 C CNN "Mfg"
+F 5 "BLM15AX102SN1D" H 0   0   50  0001 C CNN "PN"
 	1    3850 1600
 	0    1    1    0   
 $EndComp
@@ -387,6 +421,8 @@ F 0 "C43" H 4592 1896 50  0000 L CNN
 F 1 "1uF" H 4592 1805 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 4500 1850 50  0001 C CNN
 F 3 "~" H 4500 1850 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CC0402KRX5R6BB105" H 0   0   50  0001 C CNN "PN"
 	1    4500 1850
 	1    0    0    -1  
 $EndComp
@@ -398,6 +434,8 @@ F 0 "C44" H 4992 1896 50  0000 L CNN
 F 1 "100nF" H 4992 1805 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 4900 1850 50  0001 C CNN
 F 3 "~" H 4900 1850 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CC0402KRX5R6BB104" H 0   0   50  0001 C CNN "PN"
 	1    4900 1850
 	1    0    0    -1  
 $EndComp
@@ -453,6 +491,8 @@ F 0 "C54" H 9492 3946 50  0000 L CNN
 F 1 "100nF" H 9492 3855 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 9400 3900 50  0001 C CNN
 F 3 "~" H 9400 3900 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CC0402KRX5R6BB104" H 0   0   50  0001 C CNN "PN"
 	1    9400 3900
 	1    0    0    -1  
 $EndComp
@@ -464,6 +504,8 @@ F 0 "C55" H 9892 3946 50  0000 L CNN
 F 1 "100nF" H 9892 3855 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 9800 3900 50  0001 C CNN
 F 3 "~" H 9800 3900 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CC0402KRX5R6BB104" H 0   0   50  0001 C CNN "PN"
 	1    9800 3900
 	1    0    0    -1  
 $EndComp
@@ -527,6 +569,8 @@ F 0 "SW1" H 4300 7235 50  0000 C CNN
 F 1 "SW_Push" H 4300 7144 50  0000 C CNN
 F 2 "" H 4300 7150 50  0001 C CNN
 F 3 "" H 4300 7150 50  0001 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
+F 5 "EVQ-P1D05M" H 0   0   50  0001 C CNN "PN"
 	1    4300 6950
 	1    0    0    -1  
 $EndComp
@@ -544,6 +588,8 @@ F 0 "C56" H 3442 7246 50  0000 L CNN
 F 1 "100nF" H 3442 7155 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 3350 7200 50  0001 C CNN
 F 3 "~" H 3350 7200 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CC0402KRX5R6BB104" H 0   0   50  0001 C CNN "PN"
 	1    3350 7200
 	1    0    0    -1  
 $EndComp

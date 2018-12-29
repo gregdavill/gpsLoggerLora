@@ -28,6 +28,8 @@ F 0 "C9" H 2475 4500 50  0000 L CNN
 F 1 "10n" H 2475 4300 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 2488 4250 30  0001 C CNN
 F 3 "" H 2450 4400 60  0000 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CC0402KRX7R8BB103" H 0   0   50  0001 C CNN "PN"
 	1    2450 4400
 	1    0    0    -1  
 $EndComp
@@ -71,6 +73,8 @@ F 0 "U3" H 6550 3518 50  0000 C CNN
 F 1 "NCP167" H 6550 3427 50  0000 C CNN
 F 2 "gkl_housings_son:X2SON_4_1.0x1.0mm" H 6500 3500 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/NCP167-D.PDF" H 6550 3400 50  0001 C CNN
+F 4 "ON Semiconductor" H 0   0   50  0001 C CNN "Mfg"
+F 5 "NCP167AMX330TBG" H 0   0   50  0001 C CNN "PN"
 	1    6550 3150
 	1    0    0    -1  
 $EndComp
@@ -98,6 +102,8 @@ F 0 "C16" H 5525 2550 50  0000 L CNN
 F 1 "1uF" H 5525 2350 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 5538 2300 30  0001 C CNN
 F 3 "" H 5500 2450 60  0000 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CC0402KRX5R6BB105" H 0   0   50  0001 C CNN "PN"
 	1    5500 2450
 	1    0    0    -1  
 $EndComp
@@ -120,6 +126,8 @@ F 0 "J2" H 9650 1800 50  0000 R CNN
 F 1 "JST GH" H 9650 2100 50  0000 R CNN
 F 2 "" H 9600 2000 50  0001 C CNN
 F 3 "~" H 9600 2000 50  0001 C CNN
+F 4 "JST Sales America Inc." H 0   0   50  0001 C CNN "Mfg"
+F 5 "BM02B-GHS-TBT(LF)(SN)(N)" H 0   0   50  0001 C CNN "PN"
 	1    9600 2000
 	-1   0    0    -1  
 $EndComp
@@ -169,9 +177,11 @@ L device:R R1
 U 1 1 5C260570
 P 4100 2600
 F 0 "R1" H 4170 2646 50  0000 L CNN
-F 1 "1k" H 4170 2555 50  0000 L CNN
+F 1 "10k" H 4170 2555 50  0000 L CNN
 F 2 "pkl_dipol:R_0603" V 4030 2600 50  0001 C CNN
 F 3 "~" H 4100 2600 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "Mfg"
+F 5 "RC0603FR-0710KL" H 0   0   50  0001 C CNN "PN"
 	1    4100 2600
 	1    0    0    -1  
 $EndComp
@@ -213,6 +223,8 @@ F 0 "C15" H 6025 3650 50  0000 L CNN
 F 1 "100nF" H 6025 3450 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 6038 3400 30  0001 C CNN
 F 3 "" H 6000 3550 60  0000 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CC0402KRX5R6BB104" H 0   0   50  0001 C CNN "PN"
 	1    6000 3550
 	1    0    0    -1  
 $EndComp
@@ -239,6 +251,8 @@ F 0 "C14" H 3775 2450 50  0000 L CNN
 F 1 "1uF" H 3775 2250 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 3788 2200 30  0001 C CNN
 F 3 "" H 3750 2350 60  0000 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CC0402KRX5R6BB105" H 0   0   50  0001 C CNN "PN"
 	1    3750 2350
 	1    0    0    -1  
 $EndComp
@@ -265,6 +279,8 @@ F 0 "C11" H 3425 2450 50  0000 L CNN
 F 1 "100nF" H 3425 2250 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 3438 2200 30  0001 C CNN
 F 3 "" H 3400 2350 60  0000 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CC0402KRX5R6BB104" H 0   0   50  0001 C CNN "PN"
 	1    3400 2350
 	1    0    0    -1  
 $EndComp
@@ -281,6 +297,8 @@ F 0 "L17" V 2763 2000 50  0000 C CNN
 F 1 "1k" V 2854 2000 50  0000 C CNN
 F 2 "pkl_dipol:L_0402" V 2930 2000 50  0001 C CNN
 F 3 "~" H 3000 2000 50  0001 C CNN
+F 4 "Murata Electronics North America" H 0   0   50  0001 C CNN "Mfg"
+F 5 "BLM15AX102SN1D" H 0   0   50  0001 C CNN "PN"
 	1    3000 2000
 	0    1    1    0   
 $EndComp
@@ -314,6 +332,8 @@ F 0 "C17" H 7375 3400 50  0000 L CNN
 F 1 "1uF" H 7375 3200 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 7388 3150 30  0001 C CNN
 F 3 "" H 7350 3300 60  0000 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CC0402KRX5R6BB105" H 0   0   50  0001 C CNN "PN"
 	1    7350 3300
 	1    0    0    -1  
 $EndComp
@@ -385,6 +405,8 @@ F 0 "J1" H 1555 5417 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 1555 5326 50  0000 C CNN
 F 2 "gkl_conn:usbc_vert_10132328" H 1600 3850 50  0001 C CNN
 F 3 "http://www.usb.org/developers/docs/usb_31_033017.zip" H 1600 3850 50  0001 C CNN
+F 4 "Amphenol ICC (FCI)" H 0   0   50  0001 C CNN "Mfg"
+F 5 "10132328-10011LF" H 0   0   50  0001 C CNN "PN"
 	1    1450 3850
 	1    0    0    -1  
 $EndComp
@@ -454,6 +476,8 @@ F 0 "U6" H 6550 4618 50  0000 C CNN
 F 1 "NCP167" H 6550 4527 50  0000 C CNN
 F 2 "gkl_housings_son:X2SON_4_1.0x1.0mm" H 6500 4600 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/NCP167-D.PDF" H 6550 4500 50  0001 C CNN
+F 4 "ON Semiconductor" H 0   0   50  0001 C CNN "Mfg"
+F 5 "NCP167AMX330TBG" H 0   0   50  0001 C CNN "PN"
 	1    6550 4250
 	1    0    0    -1  
 $EndComp
@@ -516,6 +540,8 @@ F 0 "C52" H 6025 4850 50  0000 L CNN
 F 1 "100nF" H 6025 4650 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 6038 4600 30  0001 C CNN
 F 3 "" H 6000 4750 60  0000 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CC0402KRX5R6BB104" H 0   0   50  0001 C CNN "PN"
 	1    6000 4750
 	1    0    0    -1  
 $EndComp
@@ -529,6 +555,8 @@ F 0 "C53" H 7375 4550 50  0000 L CNN
 F 1 "1uF" H 7375 4350 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 7388 4300 30  0001 C CNN
 F 3 "" H 7350 4450 60  0000 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CC0402KRX5R6BB105" H 0   0   50  0001 C CNN "PN"
 	1    7350 4450
 	1    0    0    -1  
 $EndComp
@@ -571,6 +599,8 @@ F 0 "R5" H 5620 4746 50  0000 L CNN
 F 1 "10k" H 5620 4655 50  0000 L CNN
 F 2 "pkl_dipol:R_0402" V 5480 4700 50  0001 C CNN
 F 3 "~" H 5550 4700 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "Mfg"
+F 5 "RC0402FR-0710KL" H 0   0   50  0001 C CNN "PN"
 	1    5550 4700
 	1    0    0    -1  
 $EndComp
@@ -619,6 +649,8 @@ F 0 "Q1" H 8641 3246 50  0000 L CNN
 F 1 "FG6943010R" H 7950 3350 50  0000 L CNN
 F 2 "pkl_housings_sot:SOT-666" H 8650 3300 29  0001 C CNN
 F 3 "" H 8450 3200 60  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
+F 5 "FG6943010R" H 0   0   50  0001 C CNN "PN"
 	1    8450 3200
 	1    0    0    -1  
 $EndComp
@@ -630,6 +662,8 @@ F 0 "Q1" H 9141 2946 50  0000 L CNN
 F 1 "FG6943010R" H 9141 2855 50  0000 L CNN
 F 2 "pkl_housings_sot:SOT-666" H 9141 2809 29  0001 L CNN
 F 3 "" H 8950 2900 60  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
+F 5 "FG6943010R" H 0   0   50  0001 C CNN "PN"
 	2    8950 2900
 	1    0    0    -1  
 $EndComp
@@ -641,6 +675,8 @@ F 0 "R6" H 8609 2696 50  0000 L CNN
 F 1 "47k" H 8609 2605 50  0000 L CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 8550 2650 60  0001 C CNN
 F 3 "" H 8550 2650 60  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
+F 5 "EXB-38V473JV" H 0   0   50  0001 C CNN "PN"
 	4    8550 2650
 	1    0    0    -1  
 $EndComp
@@ -652,6 +688,8 @@ F 0 "R6" H 8209 3496 50  0000 L CNN
 F 1 "47k" H 8209 3405 50  0000 L CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 8150 3450 60  0001 C CNN
 F 3 "" H 8150 3450 60  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
+F 5 "EXB-38V473JV" H 0   0   50  0001 C CNN "PN"
 	3    8150 3450
 	1    0    0    1   
 $EndComp
@@ -663,6 +701,8 @@ F 0 "R6" H 9109 3246 50  0000 L CNN
 F 1 "47k" H 9109 3155 50  0000 L CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 9050 3200 60  0001 C CNN
 F 3 "" H 9050 3200 60  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
+F 5 "EXB-38V473JV" H 0   0   50  0001 C CNN "PN"
 	2    9050 3200
 	1    0    0    1   
 $EndComp
@@ -674,6 +714,8 @@ F 0 "R6" H 9109 3546 50  0000 L CNN
 F 1 "47k" H 9109 3455 50  0000 L CNN
 F 2 "pkl_dipol:R_Array_Concave_4x0603" H 9050 3500 60  0001 C CNN
 F 3 "" H 9050 3500 60  0000 C CNN
+F 4 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Mfg"
+F 5 "EXB-38V473JV" H 0   0   50  0001 C CNN "PN"
 	1    9050 3500
 	1    0    0    -1  
 $EndComp
@@ -761,6 +803,8 @@ F 0 "R8" H 3020 5646 50  0000 L CNN
 F 1 "5.1k" H 3020 5555 50  0000 L CNN
 F 2 "pkl_dipol:R_0402" V 2880 5600 50  0001 C CNN
 F 3 "~" H 2950 5600 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "Mfg"
+F 5 "RC0402FR-075K1L" H 0   0   50  0001 C CNN "PN"
 	1    2950 5600
 	-1   0    0    -1  
 $EndComp
@@ -772,6 +816,8 @@ F 0 "R9" H 3170 5646 50  0000 L CNN
 F 1 "5.1k" H 3170 5555 50  0000 L CNN
 F 2 "pkl_dipol:R_0402" V 3030 5600 50  0001 C CNN
 F 3 "~" H 3100 5600 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "Mfg"
+F 5 "RC0402FR-075K1L" H 0   0   50  0001 C CNN "PN"
 	1    3100 5600
 	1    0    0    -1  
 $EndComp
@@ -815,6 +861,8 @@ F 0 "U7" H 3875 4268 50  0000 C CNN
 F 1 "NUP2114" H 3875 4177 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-553" H 3850 4200 50  0001 C CNN
 F 3 "" H 3850 4200 50  0001 C CNN
+F 4 "ON Semiconductor" H 0   0   50  0001 C CNN "Mfg"
+F 5 "NUP2114UPXV5T1G" H 0   0   50  0001 C CNN "PN"
 	1    3850 4050
 	1    0    0    -1  
 $EndComp
